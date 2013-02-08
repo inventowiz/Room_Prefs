@@ -11,8 +11,9 @@
 #include"Globals.h"
 #include<iostream>
 using namespace std;
-
-struct Person {
+//again, bad style
+class Person {
+public:
 	int prefs[6];
 	int name;
 	bool living;

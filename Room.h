@@ -3,8 +3,9 @@
 #include"Globals.h"
 #include<iostream>
 using namespace std;
-
-struct Room{
+//bad style, I know.
+class Room{
+public:
 	int owner;
 	bool taken;
 

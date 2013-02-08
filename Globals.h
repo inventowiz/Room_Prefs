@@ -8,12 +8,14 @@
 #ifndef GLOBALS_H_
 #define GLOBALS_H_
 
+//PUT PEOPLE HERE
 enum{
 	Brian, Adam, Anthony, Brandon, Bryce, David
 };
 string names[David+1] = {
 	"Brian", "Adam", "Anthony", "Brandon", "Bryce", "David"
 };
+//AND THEIR PREFS
 int preferences[6][6] = {
 		{5,6,3,2,1,4}, //Brian
 		{6,5,3,2,1,4}, //Adam
